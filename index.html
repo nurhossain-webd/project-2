@@ -16,7 +16,7 @@
 <body class="bg-[#1A0B2E]">
     <header>
         <!-- This is nav section -->
-        <nav class="mx-52 flex justify-between max-w-[1600px] h-[90px] items-center ">
+        <nav class="flex justify-between max-w-[1200px] mx-auto h-[90px] items-center ">
             <div class="nav-logo">
                 <h2 class="text-4xl font-bold text-white">
                     Tech<span
@@ -38,16 +38,16 @@
             </div>
         </nav>
         <!-- this is Banner section -->
-        <section class=" mx-auto max-w-[1600px] bg-[url(/assets/hero-bg.png)]  h-[760px]">
-            <div class="h-full flex flex-col justify-center items-center text-center">
+        <section class="w-full bg-[url('./assets/hero-bg.png')] bg-cover bg-center bg-no-repeat  min-h-[760px]">
+            <div class="max-w-[1600px] mx-auto flex flex-col justify-center items-center text-center">
                 <!-- this is banner image -->
-                <div class="relative">
+                <div class="relative mt-18">
                     <img class="relative z-10" src="assets/hero-circle.png" alt="">
                     <img class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20"
                         src="assets/microphone.png" alt="">
 
                     <span
-                        class="absolute -top-[-25px] -right-[-30px] z-30 px-3 py-1 text-xs font-bold text-black bg-green-400 rounded-full">
+                        class="absolute top-[25px] right-[30px] z-30 px-3 py-1 text-xs font-bold text-black bg-green-400 rounded-full">
                         NEW
                     </span>
                 </div>
@@ -151,7 +151,7 @@
             </div>
             <div class="flex gap-6">
                 <div class="bg-[#250D44] rounded-3xl">
-                    <iframe class="rounded-t-3xl" width="380" height="214"
+                    <iframe class="rounded-t-3xl w-full h-[214px]"
                         src="https://www.youtube.com/embed/oJC8VIDSx_Q?si=0lk3IXEGWHmTaAWv" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -164,7 +164,7 @@
                             src="assets/clock.png" alt="">3.22</span>
                 </div>
                 <div class="bg-[#250D44] rounded-3xl">
-                    <iframe class="rounded-t-3xl" width="380" height="214"
+                    <iframe class="rounded-t-3xl w-full h-[214px]"
                         src="https://www.youtube.com/embed/QZtwvXvqbVo?si=xsJpbY-_2HCLmuxs" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -178,7 +178,7 @@
                     </div>
                 </div>
                 <div class="bg-[#250D44] rounded-3xl">
-                    <iframe class="rounded-t-3xl" width="380" height="214"
+                    <iframe class="rounded-t-3xl w-full h-[214px]"
                         src="https://www.youtube.com/embed/GxmfcnU3feo?si=4rcXx7DUNGdgG51G" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -220,30 +220,30 @@
         </section>
     </main>
     <!-- this is footer part -->
-    <footer
-        class="max-w-[1600px] mx-auto bg-[url(/assets/footer-bg.png)] bg-cover bg-center mt-[120px] py-8 text-white text-center">
-        <div>
+    <footer class="w-full bg-[url('./assets/footer-bg.png')] bg-cover bg-center bg-no-repeat mt-8">
+        <div class="max-w-[1600px] mx-auto py-8 px-6 text-white text-center">
             <h2 class="text-5xl font-bold mb-8">
                 Tech<span
                     class="bg-[linear-gradient(30deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] bg-clip-text text-transparent">Wave</span>
             </h2>
-        </div>
-        <div class="flex justify-center gap-10 items-center py-4">
-            <div class="flex justify-center gap-2 items-center">
-                <img src="assets/spotify.png" alt=""> <span>Spotify</span>
-            </div>
-            <div class="flex justify-center gap-2 items-center">
-                <img src="assets/apple-podcast.png" alt=""> <span>Apple Podcasts</span>
-            </div>
-            <div class="flex justify-center gap-2 items-center">
-                <img src="assets/youtube-podcast.png" alt=""> <span>Youtube</span>
-            </div>
-            <div class="flex justify-center gap-2 items-center">
-                <img src="assets/twitter.png" alt=""> <span></span>Twitter</span>
-            </div>
 
+            <div class="flex justify-center gap-10 items-center py-4">
+                <div class="flex justify-center gap-2 items-center">
+                    <img src="assets/spotify.png" alt=""> <span>Spotify</span>
+                </div>
+                <div class="flex justify-center gap-2 items-center">
+                    <img src="assets/apple-podcast.png" alt=""> <span>Apple Podcasts</span>
+                </div>
+                <div class="flex justify-center gap-2 items-center">
+                    <img src="assets/youtube-podcast.png" alt=""> <span>Youtube</span>
+                </div>
+                <div class="flex justify-center gap-2 items-center">
+                    <img src="assets/twitter.png" alt=""> <span>Twitter</span>
+                </div>
+
+            </div>
+            <p class="py-2">© 2026 TechWave Podcast. All rights reserved.</p>
         </div>
-        <p class="py-2">© 2026 TechWave Podcast. All rights reserved.</p>
     </footer>
 </body>
 
